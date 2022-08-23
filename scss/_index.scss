@@ -13,7 +13,7 @@
             font-size: 10vh;
             transition: $tiempoCorto;
             &:hover {
-                -webkit-text-stroke: 2px $blanco;
+                -webkit-text-stroke: 2px, map-get($map:colores, $key:blanco);
                 color: $transparente;
             }
         }
@@ -22,14 +22,14 @@
             font-family: 'Oswald', sans-serif;
             transition: $tiempoCorto; 
             &:hover {
-                -webkit-text-stroke: 2px $blanco;
+                -webkit-text-stroke: 2px, map-get($map:colroes , $key:blanco );
                 color: $transparente;
             }        }
         a{
             text-decoration: none;
-            color: $blanco;
+            color: map-get($colores ,negro);
             font-size: 4vh;
-            border: 1px $blanco solid;
+            border: 1px map-get($colores, negro) solid;
             border-radius: 50vh;
         }
     }
