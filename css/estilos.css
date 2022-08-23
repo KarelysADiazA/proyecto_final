@@ -21,11 +21,11 @@
     .navegacion .contenido-centrado h1:hover {
       -webkit-text-stroke: 2px white;
       color: transparent; }
-  .navegacion .contenido-centrado p {
+  .navegacion .contenido-centrado p, .navegacion .contenido-centrado .ladies h2, .ladies .navegacion .contenido-centrado h2 {
     font-size: 7vh;
     font-family: 'Oswald', sans-serif;
     transition: 0.5s; }
-    .navegacion .contenido-centrado p:hover {
+    .navegacion .contenido-centrado p:hover, .navegacion .contenido-centrado .ladies h2:hover, .ladies .navegacion .contenido-centrado h2:hover {
       -webkit-text-stroke: 2px white;
       color: transparent; }
   .navegacion .contenido-centrado a {
@@ -41,7 +41,79 @@
     margin-top: 10%;
     font-size: 12vh;
     color: transparent;
-    -webkit-text-stroke: 2px #707070; }
+    -webkit-text-stroke: 2px #8c8f8e; }
+
+.origenFondo {
+  background-image: linear-gradient(to top, #fbfdff, #c2c4c5, #8c8f8e, #5b5c5b, #2e2e2d);
+  background-size: cover; }
+  .origenFondo .uno {
+    background-color: #2e2e2d79; }
+  .origenFondo .dos {
+    background-color: rgba(202, 106, 37, 0.404); }
+  .origenFondo .tres {
+    background-color: #5b5c5b6b; }
+
+.conceptos .cajaUno {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5vh;
+  font-weight: bold;
+  text-decoration: underline 1px solid #8c8f8e; }
+
+.conceptos .cajaUnoP {
+  font-size: 2.5vh;
+  text-shadow: #f7f3c2 2px 2px 2px;
+  font-family: 'Edu SA Beginner', cursive; }
+
+.conceptos .cajados {
+  background-color: #363e49;
+  border-radius: 30px;
+  padding: 1px; }
+  .conceptos .cajados .cajaDos {
+    font-size: 8vh;
+    color: transparent;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline 1px #858585;
+    -webkit-text-stroke: white 2px; }
+  .conceptos .cajados .cajaDosP {
+    font-size: 3.5vh;
+    color: #c2c4c5;
+    padding: 15px; }
+
+.ladies {
+  background-color: #ffe4bb; }
+  .ladies h1 {
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: bolder;
+    height: 170px;
+    padding-top: 7%;
+    font-size: 8vh;
+    color: transparent;
+    -webkit-text-stroke: #000000 3px; }
+  .ladies p, .ladies h2 {
+    position: absolute;
+    margin-top: -15%;
+    color: white;
+    margin-left: 25%;
+    font-size: 3.5vh;
+    font-family: 'Oswald', sans-serif; }
+  .ladies h2 {
+    margin-top: -20%;
+    margin-left: 25%;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 7vh;
+    text-decoration: underline 1px white; }
+
+.Staff h2 {
+  font-size: 7vh;
+  text-decoration: underline 1px black;
+  font-family: 'Edu SA Beginner', cursive;
+  text-shadow: #8c8f8e 2px 2px 2px; }
+
+.Staff p, .Staff .ladies h2, .ladies .Staff h2 {
+  font-size: 3.7vh;
+  margin-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%; }
 
 @media screen and (min-width: 500px) and (max-width: 900px) {
   .navegacion video {
@@ -52,7 +124,7 @@
     margin-top: 28%; }
     .navegacion .contenido-centrado h1 {
       font-size: 4vh; }
-    .navegacion .contenido-centrado p {
+    .navegacion .contenido-centrado p, .navegacion .contenido-centrado .ladies h2, .ladies .navegacion .contenido-centrado h2 {
       font-size: 3.5vh; }
     .navegacion .contenido-centrado a {
       font-size: 1.5vh; }
@@ -72,7 +144,7 @@
     margin-top: 28%; }
     .contenido-centrado h1 {
       font-size: 7vh; }
-    .contenido-centrado p {
+    .contenido-centrado p, .contenido-centrado .ladies h2, .ladies .contenido-centrado h2 {
       font-size: 6vh; }
     .contenido-centrado a {
       font-size: 4vh; }

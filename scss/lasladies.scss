@@ -1,0 +1,40 @@
+.ladies {
+    background-color: rgb(255, 228, 187);
+    h1 {
+        font-family: 'Edu SA Beginner', cursive;
+        font-weight: bolder;
+         height: 170px;
+        padding-top: 7%;
+        font-size: 8vh;
+        color: transparent;
+        -webkit-text-stroke: #000000 3px; }
+    p {
+            position: absolute;
+            margin-top: -15%;
+            color: white;
+            margin-left: 25%;
+            font-size: 3.5vh;
+            font-family:'Oswald', sans-serif;
+        }
+    h2 {
+        @extend p ;
+        margin-top: -20%;
+        margin-left: 25%;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 7vh;
+        text-decoration: underline 1px white;
+        }
+}
+.Staff {
+    h2 {font-size: 7vh;
+    text-decoration: underline 1px map-get($colores, negro);
+    font-family: 'Edu SA Beginner', cursive;
+    text-shadow: #8c8f8e 2px 2px 2px;}
+    p{
+        font-size: 3.7vh;
+        margin-bottom: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}

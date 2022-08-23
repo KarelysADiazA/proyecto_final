@@ -8,13 +8,14 @@
         margin-left: 5%;
         margin-top: 25%;
         text-align: center;
-        color: $blanco;
+        color: map-get($colores, blanco );
+
         h1 {
             font-size: 10vh;
             transition: $tiempoCorto;
             &:hover {
-                -webkit-text-stroke: 2px, map-get($map:colores, $key:blanco);
-                color: $transparente;
+                -webkit-text-stroke: 2px map-get($colores, blanco );
+                color: map-get($colores, transparente);
             }
         }
         p {
@@ -22,14 +23,14 @@
             font-family: 'Oswald', sans-serif;
             transition: $tiempoCorto; 
             &:hover {
-                -webkit-text-stroke: 2px, map-get($map:colroes , $key:blanco );
-                color: $transparente;
+                -webkit-text-stroke: 2px map-get($colores ,blanco);
+                color: map-get($colores , transparente );
             }        }
         a{
             text-decoration: none;
-            color: map-get($colores ,negro);
+            color: map-get($colores,blanco );
             font-size: 4vh;
-            border: 1px map-get($colores, negro) solid;
+            border: 1px map-get($colores ,blanco ) solid;
             border-radius: 50vh;
         }
     }
@@ -38,7 +39,7 @@
     margin-top: 2%;
     h2 { margin-top: 10%;
         font-size: 12vh;
-        color: $transparente;
-        -webkit-text-stroke: 2px rgb(112, 112, 112);
+        color: map-get($colores, transparente );
+        -webkit-text-stroke: 2px map-get($colores, gris );
     }
     }

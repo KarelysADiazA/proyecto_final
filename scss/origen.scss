@@ -1,0 +1,40 @@
+.origenFondo { 
+    background-image: linear-gradient(to top, #fbfdff, #c2c4c5, #8c8f8e, #5b5c5b, #2e2e2d);
+    background-size:cover;
+    .uno{ background-color: #2e2e2d79;
+}
+    .dos {background-color: rgba(202, 106, 37, 0.404);
+    }
+    .tres {  background-color: #5b5c5b6b;
+    }
+}
+.conceptos {
+    .cajaUno {
+        font-family:'Oswald', sans-serif;
+        font-size: 5vh;
+        font-weight: bold;
+        text-decoration: underline 1px solid map-get($colores, gris);}
+        .cajaUnoP {
+            font-size: 2.5vh;
+            text-shadow: #f7f3c2 2px 2px 2px;
+            font-family: 'Edu SA Beginner', cursive;
+        }
+    
+    .cajados {
+        background-color: #363e49 ;
+        border-radius: 30px;
+        padding: 1px;
+        .cajaDos {
+            font-size: 8vh;
+            color: transparent;
+            font-family:'Oswald', sans-serif;
+            text-decoration: underline 1px #858585;
+            -webkit-text-stroke: map-get($colores, blanco) 2px;
+        }
+        .cajaDosP {
+            font-size: 3.5vh;
+            color: #c2c4c5;
+            padding: 15px;
+        }
+    }
+}
