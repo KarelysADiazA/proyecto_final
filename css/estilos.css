@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2? family= Edu+SA+Beginner & family= Oswald:wght@300 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navegacion video {
+  position: absolute;
+  bottom: 0%;
+  z-index: -1; }
+
+.navegacion .contenido-centrado {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 25%;
+  text-align: center;
+  color: white; }
+  .navegacion .contenido-centrado h1 {
+    font-size: 10vh;
+    transition: 0.5s; }
+    .navegacion .contenido-centrado h1:hover {
+      -webkit-text-stroke: 2px white;
+      color: transparent; }
+  .navegacion .contenido-centrado p {
+    font-size: 7vh;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.5s; }
+    .navegacion .contenido-centrado p:hover {
+      -webkit-text-stroke: 2px white;
+      color: transparent; }
+  .navegacion .contenido-centrado a {
+    text-decoration: none;
+    color: white;
+    font-size: 4vh;
+    border: 1px white solid;
+    border-radius: 50vh; }
+
+.raparte {
+  margin-top: 2%; }
+  .raparte h2 {
+    margin-top: 10%;
+    font-size: 12vh;
+    color: transparent;
+    -webkit-text-stroke: 2px #707070; }
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .navegacion video {
+    width: auto;
+    height: auto;
+    top: -0%; }
+  .navegacion .contenido-centrado {
+    margin-top: 28%; }
+    .navegacion .contenido-centrado h1 {
+      font-size: 4vh; }
+    .navegacion .contenido-centrado p {
+      font-size: 3.5vh; }
+    .navegacion .contenido-centrado a {
+      font-size: 1.5vh; }
+  .raparte img {
+    width: 40%;
+    height: 80%;
+    margin-top: -4%; }
+  .raparte h2 {
+    margin-top: 12%;
+    font-size: 6vh;
+    margin-left: 2%; } }
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .navegacion video {
+    top: -0%; }
+  .contenido-centrado {
+    margin-top: 28%; }
+    .contenido-centrado h1 {
+      font-size: 7vh; }
+    .contenido-centrado p {
+      font-size: 6vh; }
+    .contenido-centrado a {
+      font-size: 4vh; }
+  .raparte img {
+    width: 60%;
+    height: 120%; }
+  .raparte h2 {
+    font-size: 8vh;
+    margin-left: 2%; } }

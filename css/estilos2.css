@@ -1,0 +1,611 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner & family= Oswald:wght@300 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerNav {
+    grid-area: header;}
+ .headerN {  
+   display:flex;
+   height: 100%;
+   justify-content: space-between;
+   align-items:center;
+   border-bottom: #000000 solid 1vh;
+   border-top: #000000 solid 1vh;
+   background-image: linear-gradient(to left, #ffa400, #e7e1df, #ffffff);
+
+   }
+.headerNav img {
+    height: 8vh;
+    padding-left: 2%;
+}  
+.menuN{
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+}
+.menuN :hover {
+    color: #313131;
+}
+
+.menuDeNavegacion {
+    display: flex;
+    text-decoration: none;
+    color: #d37f09;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vh;
+    padding-left: 1vh;
+} 
+
+
+.imagenPrincipal {
+    display: grid;
+    grid-area: imagenP;
+}
+.imagenPrincipal img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom: #af6d10 solid;
+}
+.primero {
+    display: flex;
+    position: absolute;
+   color: #af6d10;
+   font-family: 'Edu SA Beginner', cursive;
+   font-size: 5vh;
+   padding-top: 10%;
+   padding-left: 3%;
+
+}
+.segundo{ 
+    position: absolute;
+    font-family: 'Edu SA Beginner', cursive;
+    color:#9e9ea1;
+    font-size: 3vh;
+    padding-top: 47%;
+    padding-left: 4%;
+}
+.video {
+    display: grid;
+    grid-area: videoP ;
+}
+.video iframe {
+    box-shadow: #9e9ea1 1vh 0.5vh 1vh ;
+    align-content: space-between;
+    border-radius: 10vh;
+}
+.menuShows {
+    display: grid;
+    grid-area: menuShows;
+}
+.menuSs{
+    text-decoration: line-through;
+    text-align: center;
+    text-shadow: #f5e97ea2 3px 3px 3px ;
+    margin-top: 5%;
+}
+.menuS { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #af6d10;
+}
+.menuS:hover {
+    color: #9e9ea1;
+    background-color: #00000070;
+}
+.footerNav {
+    display: grid;
+    grid-area: footer;
+}
+.footerN {
+    display: flex;
+    justify-content: center;
+    border-top: #9e9ea1 1vh solid;
+}
+.footerN img {
+    height: 100%;
+}
+.container_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "imagenP imagenP"
+    "menuShows videoP"
+    "footer footer" ;
+    grid-template-rows: auto;
+}
+
+.imagenesUno{
+    display: grid;
+    grid-area: imagenesUno;
+    width: 100%;
+    height: 100%;
+
+}
+.primerBloque {
+    background-color: #af6d10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0.5%;
+}
+.chicaConAtardecer {
+    height: 35%;
+    margin-top: 2vh;
+}
+.fondoNaranjaInfo {
+    height: 30%;
+    margin-top: 2vh;
+    position: relative;
+}
+.parrafoN {
+    position: absolute;
+    font-size: 4.5vh;
+    margin-top: 100vh;
+    text-align: center;
+}
+.blancoNegro{
+    height: 32%;
+}
+.imagenesDos {
+    display: grid;
+    grid-area: imagenesDos;
+}
+.imagenesDos {
+    width: 100%;
+    background-color:#af6d10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flamenco {
+    height: 25%;
+    margin-top: 2vh;
+}
+.infoGris {
+    height: 33%;
+    position: relative;
+}
+.parrafoD {
+   position:absolute;
+    font-size: 4vh;
+   margin-top: 90vh;
+   text-align: center;
+}
+
+.parejaSalsa{
+    height: 35%;
+
+}
+.containerGridOr {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+     grid-template-areas: 
+     "header"
+     "imagenesUno"
+     "imagenesDos"
+     "footer";}
+
+.directora {
+    grid-area: directora;
+}
+.directora {
+    display: flex; 
+    flex-direction: column;   
+}
+.directora img{
+    width: 80%;
+    margin-left: 5vh;  
+    border-bottom: #af6d10 3vh solid;
+    border-left: #af6d10 3vh solid;
+    overflow: hidden;
+    box-shadow: rgba(100, 96, 96, 0.836) 10px 10px 10px ;
+} .directora h1 {
+    margin-left: 8vh;
+    margin-bottom: 3vh;
+    font-size: 6vh;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: #61657a 10px 10px 10px ;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.directoraP {
+    grid-area: directoraP;
+}
+.directoraP {
+    font-size:  3vh;
+    margin-top: 7vh;
+    text-align: center;
+}
+.staff {
+    grid-area: staff;
+} 
+.staff h2 {
+    margin-top: 2 vh;
+    font-size: 6vh;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: #61657a 10px 10px 10px ;
+    margin-left: 5vh;
+}
+.staff img {
+    margin-top: 5vh;
+   width: 80%;
+   border-bottom: #af6d10 3vh solid;
+   border-right: #af6d10 3vh solid; 
+   text-align: center;
+   font-family: 'Oswald', sans-serif
+}
+.staffP {
+    grid-area: staffP;
+    font-family: 'Edu SA Beginner', cursive;
+    margin-top: 7vh;
+    text-align: center;
+}
+.lasLadies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "directora directoraP"
+    "staffP staff"
+    "footer footer"
+    ;
+}
+.showFuego {
+    grid-area: showFuego;
+}
+.showFuego img {
+    width: 90%;
+    margin-left:  7%;
+    box-shadow: 2px 2px 2px #9e9ea1;
+    padding: 1vh;
+    margin-top: 1vh;
+}
+.showFuegoP {
+    grid-area: showFuegoP;
+}
+.showFuegoP h2 {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline #d37f09 3px;
+    text-shadow: #55340554 2px 2px 2px;
+    text-align: center;
+    font-size: 5vh;
+    padding: 1vh;
+}
+.showFuegoP p{
+    font-size: 2.2vh;
+    font-family: 'Edu SA Beginner', cursive;
+    text-align: center;
+}
+.showCamisa {
+    grid-area: showCamisa;
+}
+.showCamisa img {
+   width: 70%;
+   margin-left: 15%;
+   padding: 1vh;
+   box-shadow: 2px 2px 2px #9e9ea1;
+}
+.showCamisaP {
+    grid-area: showCamisaP;
+}
+.showCamisaP h2{
+    font-family: 'Oswald', sans-serif;
+    color: #d37f09;
+    text-decoration: underline #9698a1 3px;
+    text-shadow: #9698a1 1.5px 1.5px 1.5px ;
+    text-align: center;
+    font-size: 5vh;
+    padding: 1vh;
+}
+.showCamisaP p {
+    font-size: 2.2vh;
+    font-family: 'Edu SA Beginner', cursive;
+    text-align: center;
+}
+.showIndu {
+    grid-area: showIndu;
+}
+.showIndu img {
+    width: 60%;
+    margin-left: 7%;
+    padding: 1vh;
+    box-shadow: 2px 2px 2px #9e9ea1;
+    margin-top: 5%;
+}
+.showInduP {
+    grid-area: showInduP;
+}
+.showInduP h2 {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline #d37f09 3px;
+    text-shadow: #55340554 2px 2px 2px;
+    text-align: center;
+    font-size: 5vh;
+    padding: 1vh;
+}
+.showInduP p {
+    font-size: 2.2vh;
+    font-family: 'Edu SA Beginner', cursive;
+    text-align: center;
+}
+.showCantante {
+    grid-area: showCantante;
+}
+.showCantante img{
+    width: 100%;
+} 
+.showCantanteP {
+    grid-area: showCantanteP;
+}
+.shows {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "showFuego showFuegoP"
+    "showCamisaP showCamisa"
+    "showIndu showInduP"
+    "showCantanteP showCantate";
+}
+.fondoNaranja {
+    background-image: url(../images/Fondo\ naranja.jpg);
+    width: 150%;
+    background-size: cover;
+}
+.tablero{
+    padding: 3%;
+}
+.color {
+    background-color: rgba(253, 254, 255, 0.445);
+    margin: 3%; 
+}
+.fondoNaranja h1 {
+    display: flex;
+    font-size: 18vh;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 30% ;
+    margin-top: 5%; 
+    text-shadow: #313131 2px 2px 2px ; 
+}
+.fondoNaranja img {
+    width: 50%;
+    display: flex;
+    position: relative;
+    margin-top: -6.4%;
+    left: 22%;
+}
+@media screen and (min-width:520px ) and (max-width: 1023px) {
+    .menuDeNavegacion {
+        font-size: 4vh; 
+        padding-right: 2vh;
+    }
+    .primero {
+        font-size: 7vh;
+    }
+    .segundo {
+        font-size: 5.5vh;
+    }
+    .menuSs {
+        font-size: 5vh;
+    }
+    .menuS {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 1vh;
+        font-size: 3.5vh;
+        padding-right: 1vh;
+    }
+    .video iframe {
+        height: 300px;
+        width: 280px;
+        
+    }
+    .chicaConAtardecer {
+        height: 48%;
+    }
+    .fondoNaranjaInfo {
+        height: 48%;
+        width: 53%;
+    }
+    .blancoNegro {
+        height: 48%;
+        width: 45%;
+        margin-top: 2vh;
+    }
+    .flamenco {
+        height: 49%;
+    }
+    .infoGris {
+        height: 48%;
+        width: 45%;
+    }
+    .parejaSalsa {
+        height: 48%;
+    }
+    .headerNav img {
+        padding-left: 7%;
+    }
+    .directora h1 {
+        margin-left: 8vh;
+        font-size: 10vh;
+    }
+    .directoraP {
+        font-size: 4.5vh;
+        margin-top: 15vh;
+    }
+    .staff img {
+        width: 90%;
+    }
+    .staff h2 {
+        margin-left: 15%;
+        font-size: 10vh;
+    }
+    .staffP {
+        font-size: 3.9vh;
+         margin-top: 10 vh;
+         gap: 2vh;
+         margin-left: 1vh;
+    }
+    .showFuegoP h2 {
+        font-size: 8vh;
+        margin-top: 3vh;
+    }
+    .showFuegoP p {
+        font-size: 3.5vh;
+        margin-right: 7%;
+    }
+    .showCamisaP h2 {
+        font-size: 8vh;  
+        margin-top: 3vh;      
+    }
+    .showCamisaP p {
+        font-size: 3.5vh;
+    }
+    .showInduP h2 {
+        font-size: 8vh;
+        margin-top: 3vh;
+    }
+    .showInduP p{
+        font-size: 3.5vh;
+        margin-right: 7%;
+    }
+    .fondoNaranja h1 {
+        font-size: 7.5vh;
+    }
+    .fondoNaranja img {
+        width: 65%;
+        margin-top: -8.5%;
+        margin-left: -2%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .menuDeNavegacion {
+        font-size: 4.8vh ;
+        padding-right: 3vh;
+    }
+    .headerNav img {
+        padding-left: 3.5vh;
+        height: 65px;
+    }
+    .primero {
+        font-size: 10vh;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    .segundo {
+        font-size: 8vh;
+        margin-left: 4%;
+    }
+    .menuSs {
+        font-size: 8.5vh;
+    }
+    .menuS {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 1.5vh;
+        font-size: 5.3vh;
+        padding-right: 1.5vh;
+        padding-top: 1vh;
+        padding-bottom: 5vh;
+    }
+    .video iframe {
+        height: 450px;
+        width: 380px;
+    }
+    .imagenesUno {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+    .chicaConAtardecer {
+        height: 56%;
+    }
+    .fondoNaranjaInfo {
+        height: 50%;
+        width: 48%;
+    }
+    .blancoNegro {
+        height: 42%; 
+        margin-top: 2vh;
+    }
+    .imagenesDos {
+        display: flex;
+        flex-direction: row;
+    }
+    .flamenco {
+        height: 48%;
+    }
+    .infoGris {
+        height: 50%;
+        width:45% ;
+        margin-top: 1vh;
+    }
+    .parejaSalsa {
+        height: 42%;
+    }
+    .directora h1 {
+        margin-left: 12vh;
+        font-size: 13vh;
+    }
+    .directoraP {
+        font-size: 7vh;
+        margin-top: 15vh;
+    }
+    .staff img {
+        width: 90%;
+    }
+    .staff h2 {
+        margin-left: 15%;
+        font-size: 13vh;
+    }
+    .staffP {
+        font-size: 5.9vh;
+         margin-top: 15vh;
+         gap: 2vh;
+         margin-left: 1vh;
+    }
+    .showFuegoP h2{
+        font-size: 10vh;
+        margin-top: 3vh;
+    }
+    .showFuegoP p {
+        font-size: 4.9vh;
+    }
+    .showCamisaP h2 {
+        font-size: 10vh;
+        margin-top: 3vh;
+    }
+    .showCamisaP p {
+        font-size: 4.9vh;
+    }
+    .showInduP h2 {
+        font-size: 10vh;
+        margin-top: 3vh;
+    }
+    .showInduP p {
+        font-size: 4.9vh;
+        margin-right: 7%;
+    }
+    .fondoNaranja h1 {
+        font-size: 9.5vh;
+    }
+    .fondoNaranja img {
+        width: 65%;
+        margin-top: -8.5%;
+        margin-left: -4%;
+    }
+}

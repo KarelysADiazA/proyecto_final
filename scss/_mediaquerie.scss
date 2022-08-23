@@ -1,0 +1,49 @@
+@media screen and (min-width:500px) and (max-width:900px)
+{
+    .navegacion {
+        video {
+            width: auto;
+            height: auto;
+            top: -0%;
+        }
+    .contenido-centrado {
+        margin-top: 28%;
+        h1 {font-size: 4vh;
+        }
+        p { font-size: 3.5vh;
+        }
+        a {font-size: 1.5vh;}
+
+    }
+}
+    .raparte {
+        img { width: 40%;
+            height: 80%;
+            margin-top: -4%;}
+        h2 {margin-top: 12%;
+            font-size: 6vh;
+            margin-left: 2%;}
+    }
+}
+@media screen and (min-width:901px) and (max-width: 1200px) {
+    .navegacion {
+        video {
+            top: -0%;
+        }
+    }
+    .contenido-centrado {
+        margin-top: 28%;
+        h1 {font-size: 7vh;
+        }
+        p { font-size: 6vh;
+        }
+        a {font-size: 4vh;}
+
+    }
+    .raparte {
+        img {width: 60%;
+             height: 120%;}
+        h2 {font-size: 8vh;
+            margin-left: 2%;}
+    }
+}

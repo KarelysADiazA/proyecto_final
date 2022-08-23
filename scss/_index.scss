@@ -1,0 +1,44 @@
+.navegacion {
+    video {  position: absolute;
+        bottom: 0%;
+        z-index: -1;
+    }
+    .contenido-centrado {
+        display: flex;
+        margin-left: 5%;
+        margin-top: 25%;
+        text-align: center;
+        color: $blanco;
+        h1 {
+            font-size: 10vh;
+            transition: $tiempoCorto;
+            &:hover {
+                -webkit-text-stroke: 2px $blanco;
+                color: $transparente;
+            }
+        }
+        p {
+            font-size: 7vh;
+            font-family: 'Oswald', sans-serif;
+            transition: $tiempoCorto; 
+            &:hover {
+                -webkit-text-stroke: 2px $blanco;
+                color: $transparente;
+            }        }
+        a{
+            text-decoration: none;
+            color: $blanco;
+            font-size: 4vh;
+            border: 1px $blanco solid;
+            border-radius: 50vh;
+        }
+    }
+}
+.raparte {
+    margin-top: 2%;
+    h2 { margin-top: 10%;
+        font-size: 12vh;
+        color: $transparente;
+        -webkit-text-stroke: 2px rgb(112, 112, 112);
+    }
+    }

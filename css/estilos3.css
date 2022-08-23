@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner & family= Oswald:wght@300 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegacion video{
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+}
+.contenido-centrado {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 25%;
+    text-align: center;
+    color: aliceblue;
+}
+.contenido-centrado h1 {
+    font-size: 10vh;
+    transition: 0.5s;
+}
+.contenido-centrado p {
+    font-size: 7vh;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.5s;  
+}
+.contenido-centrado h1:hover {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+.contenido-centrado p:hover {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+.contenido-centrado a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 4vh;
+    border: 1px white solid;
+    border-radius: 50vh;
+}
+.daparte {
+    margin-top: 10%;
+    font-size: 12vh;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(112, 112, 112);
+}
+.raparte {
+    margin-top: 2%;
+}
+footer i {
+   width: 50%;
+}
+.origenFondo {
+    background-image: linear-gradient(to top, #fbfdff, #c2c4c5, #8c8f8e, #5b5c5b, #2e2e2d);
+    background-size:cover;
+}
+.uno {
+    background-color: #2e2e2d79;
+}
+.dos {
+    background-color: rgba(202, 106, 37, 0.404);
+}
+.tres {
+    background-color: #5b5c5b6b;
+}
+.cajaUno {
+    font-family:'Oswald', sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    text-decoration: underline 1px solid #8c8f8e;
+}
+.cajaUnoP {
+    font-size: 2.5vh;
+    text-shadow: #f7f3c2 2px 2px 2px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.cajados {
+    background-color: #363e49 ;
+    border-radius: 30px;
+    padding: 1px;
+}
+.cajaDos {
+    font-size: 8vh;
+    color: transparent;
+    font-family:'Oswald', sans-serif;
+    text-decoration: underline 1px #858585;
+    -webkit-text-stroke: #fbfdff 2px;
+}
+.cajaDosP {
+    font-size: 3.5vh;
+    color: #c2c4c5;
+    padding: 15px;
+}
+.ladies {
+    background-color: rgb(255, 228, 187);
+}
+.ladies h1 {
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: bolder;
+     height: 170px;
+    padding-top: 7%;
+    font-size: 8vh;
+    color: transparent;
+    -webkit-text-stroke: #000000 3px;
+}
+.primerImg h2 {
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 25%;
+  color: white;
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 7vh;
+  text-decoration: underline 1px white;
+}
+.primerImg p {
+    position: absolute;
+    margin-top: -15%;
+    color: white;
+    margin-left: 25%;
+    font-size: 3.5vh;
+    font-family:'Oswald', sans-serif;
+}
+.parrafoStaff {
+    font-size: 3.7vh;
+    margin-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Staff {
+    font-size: 7vh;
+    text-decoration: underline 1px black;
+    font-family: 'Edu SA Beginner', cursive;
+    text-shadow: #8c8f8e 2px 2px 2px;
+}
+.fondoG {
+    background-image: linear-gradient(to left bottom, #676767, #4d4d4d, #353535, #1f1f1f, #030303);
+    background-size:cover;
+    size:100%;
+}
+.S {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -50%;
+    margin-left: 5%;
+}
+.H {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -45%;
+    margin-left: 10%;
+}
+.O {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -40%;
+    margin-left: 15%;
+}
+.W {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -35%;
+    margin-left: 20%;
+}
+.SD {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -30%;
+    margin-left: 26%;
+}
+.fuegoimg {
+   margin-left: 20%;
+    box-shadow: #4d4d4d 2px 2px 2px;
+}
+.cantanteImg {
+    margin-left: 20%;
+    box-shadow: #4d4d4d 2px 2px 2px;
+}
+.grupoBailarines {
+    margin-left: 20%;
+    box-shadow: #4d4d4d 2px 2px 2px;
+}
+.cotiza {
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: lemonchiffon 3px;
+}
+.tablaCotiza {
+    border-radius: 50px;
+}
+.botones {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+@media screen and (min-width:500px) and (max-width:900px)
+{
+    .navegacion video {
+        width: auto;
+        height: auto;
+        top: -0%;
+    }
+    .contenido-centrado h1 {
+        font-size: 4vh;
+    }
+    .contenido-centrado p {
+        font-size: 3.5vh;
+    }
+    .contenido-centrado a{
+        font-size: 1.5vh;
+    }
+    .contenido-centrado {
+        margin-top: 28%;
+    }
+    .raparte img {
+        width: 40%;
+        height: 80%;
+        margin-top: -4%;
+    }
+    .daparte {
+        margin-top: 12%;
+        font-size: 6vh;
+        margin-left: 2%;
+    }
+    .cajaDos {
+        margin-top: 1%;
+        font-size: 6vh;
+        padding: 2px;
+    }
+    .cajaDosP {
+        font-size: 3vh;
+    }
+    .ladies h1 {
+        padding-top:15%;
+    }
+    .primerImg h2 {
+        font-size: 3vh;
+    }
+    .primerImg p {
+        font-size: 2vh;
+    }
+    .Staff {
+        font-size: 5.5vh;
+    }
+    .parrafoStaff {
+        font-size: 2.5vh;
+    }
+    .S {
+        font-size: 7vh;
+    }
+    .H {
+        font-size: 7vh;
+    }
+    .O {
+        font-size: 7vh;
+    }
+    .W{
+        font-size: 7vh;
+    }
+    .SD {
+        font-size: 7vh;
+    }
+}
+@media screen and (min-width:901px) and (max-width: 1200px) {
+    .raparte img {
+        width: 60%;
+        height: 120%;
+    }
+    .daparte {
+        font-size: 8vh;
+        margin-left: 2%;
+    }
+    .contenido-centrado h1 {
+        font-size: 7vh;
+    }
+    .contenido-centrado p {
+        font-size: 6vh;
+    }
+    .contenido-centrado a {
+        font-size: 4vh;
+    }
+    .navegacion video {
+        top: -0%;
+    }
+}
+    
