@@ -1,0 +1,40 @@
+.fondoG {
+    background-image: linear-gradient(to left bottom, #676767, #4d4d4d, #353535, #1f1f1f, #030303);
+    background-size:cover;
+    size:100%;
+.S {
+    @include letras;
+    margin-top: -50%;
+    margin-left: 5%;
+}
+.H {
+    @include letras;
+    margin-top: -50%;
+    margin-left: 5%;
+}
+.O {
+   @include letras;
+    margin-top: -40%;
+    margin-left: 15%;
+}
+.W {
+    @include letras;
+    margin-top: -35%;
+    margin-left: 20%;
+}
+.SD {
+   @include letras;
+    font-size: 12vh;
+    margin-top: -30%;
+    margin-left: 26%;
+}
+.fuegoimg {
+    @include imagenes;
+ }
+ .cantanteImg {
+     @include imagenes;
+ }
+ .grupoBailarines {
+    @include imagenes;
+ }
+}

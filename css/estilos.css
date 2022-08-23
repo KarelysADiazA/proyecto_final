@@ -115,6 +115,56 @@
   padding-left: 10%;
   padding-right: 10%; }
 
+.fondoG {
+  background-image: linear-gradient(to left bottom, #676767, #4d4d4d, #353535, #1f1f1f, #030303);
+  background-size: cover;
+  size: 100%; }
+  .fondoG .S {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -50%;
+    margin-left: 5%; }
+  .fondoG .H {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -50%;
+    margin-left: 5%; }
+  .fondoG .O {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -40%;
+    margin-left: 15%; }
+  .fondoG .W {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    margin-top: -35%;
+    margin-left: 20%; }
+  .fondoG .SD {
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: white 3px;
+    font-size: 12vh;
+    font-size: 12vh;
+    margin-top: -30%;
+    margin-left: 26%; }
+  .fondoG .fuegoimg {
+    margin-left: 20%;
+    box-shadow: #4d4d4d 2px 2px 2px; }
+  .fondoG .cantanteImg {
+    margin-left: 20%;
+    box-shadow: #4d4d4d 2px 2px 2px; }
+  .fondoG .grupoBailarines {
+    margin-left: 20%;
+    box-shadow: #4d4d4d 2px 2px 2px; }
+
 @media screen and (min-width: 500px) and (max-width: 900px) {
   .navegacion video {
     width: auto;
