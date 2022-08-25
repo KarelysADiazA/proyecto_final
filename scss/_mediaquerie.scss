@@ -5,15 +5,20 @@
             width: auto;
             height: auto;
             top: -0%;
+            box-shadow: grey 4px 4px 4px;
         }
     .contenido-centrado {
-        margin-top: 22%;
-        h1 {font-size: 2.5vh;
+        color: map-get($colores, gris );
+        margin-top: 58%;
+        h1 {font-size: 4vh;
         }
-        p { font-size: 1.5vh;
+        p { font-size: 3vh;
         }
-        a {font-size: 1vh;
-        margin-left: -5%;}
+        a {font-size: 1.5vh;
+        margin-left: -5%;
+        color: map-get($colores, gris );
+        border: black solid 1px;}
+
 
     }
 }
@@ -25,6 +30,53 @@
             font-size: 4vh;
             margin-left: 2%;}
     }
+    .cajaDos {
+        .cajados {margin-top: 1%;
+        font-size: 4vh;
+        padding: 2px;}
+        .cajaDosP {
+            font-size: 2vh;
+        }
+    }
+    .ladies { 
+        .primerImg {
+            margin-top: -15%;
+        }
+        h1 {
+          padding-top:24%;
+          font-size: 6vh;
+      }
+       h2 {
+        display: none;
+          font-size: vh;
+      }
+       p {
+          font-size: 1.5vh;
+      }
+  }
+      .Staff {
+      h2 {font-size: 3.5vh;}
+      p {
+          font-size: 2vh;
+      }
+  }
+  .letras {
+    .S {
+        font-size: 4vh;
+    }
+    .H {
+        font-size: 4vh;
+    }
+    .O {
+        font-size: 4vh;
+    }
+    .W{
+        font-size: 4vh;
+    }
+    .SD {
+        font-size: 4vh;
+    } 
+}
 }
 @media screen and (min-width:500px) and (max-width:900px)
 {
@@ -43,6 +95,7 @@
         a {font-size: 1.5vh;}
 
     }
+
 }
     .raparte {
         img { width: 40%;
@@ -80,6 +133,7 @@
         font-size: 2.5vh;
     }
 }
+ .letras {
     .S {
         font-size: 7vh;
     }
@@ -95,7 +149,7 @@
     .SD {
         font-size: 7vh;
     }
-
+   }
 }
 @media screen and (min-width:901px) and (max-width: 1200px) {
     .navegacion {
