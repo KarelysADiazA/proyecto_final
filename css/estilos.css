@@ -131,8 +131,8 @@
     color: transparent;
     -webkit-text-stroke: white 3px;
     font-size: 12vh;
-    margin-top: -50%;
-    margin-left: 5%; }
+    margin-top: -45%;
+    margin-left: 10%; }
   .fondoG .O {
     position: absolute;
     color: transparent;
@@ -152,7 +152,6 @@
     color: transparent;
     -webkit-text-stroke: white 3px;
     font-size: 12vh;
-    font-size: 12vh;
     margin-top: -30%;
     margin-left: 26%; }
   .fondoG .fuegoimg {
@@ -165,7 +164,19 @@
     margin-left: 20%;
     box-shadow: #4d4d4d 2px 2px 2px; }
 
-@media screen and (min-width: 500px) and (max-width: 900px) {
+.cotiza {
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: white 3px; }
+
+.tablaCotiza {
+  border-radius: 50px; }
+
+.botones {
+  margin-left: 5%;
+  margin-bottom: 2%; }
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
   .navegacion video {
     width: auto;
     height: auto;
@@ -185,7 +196,35 @@
   .raparte h2 {
     margin-top: 12%;
     font-size: 6vh;
-    margin-left: 2%; } }
+    margin-left: 2%; }
+  .cajaDos {
+    margin-top: 1%;
+    font-size: 6vh;
+    padding: 2px; }
+    .cajaDos .cajaDosP {
+      font-size: 3vh; }
+  .tangoimg {
+    width: 50%; }
+  .ladies h1 {
+    padding-top: 15%; }
+  .ladies h2 {
+    font-size: 3vh; }
+  .ladies p, .ladies h2 {
+    font-size: 2vh; }
+  .Staff {
+    font-size: 5.5vh; }
+    .Staff p, .Staff .ladies h2, .ladies .Staff h2 {
+      font-size: 2.5vh; }
+  .S {
+    font-size: 7vh; }
+  .H {
+    font-size: 7vh; }
+  .O {
+    font-size: 7vh; }
+  .W {
+    font-size: 7vh; }
+  .SD {
+    font-size: 7vh; } }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
   .navegacion video {

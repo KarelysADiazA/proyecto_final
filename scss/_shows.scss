@@ -9,8 +9,8 @@
 }
 .H {
     @include letras;
-    margin-top: -50%;
-    margin-left: 5%;
+    margin-top: -45%;
+    margin-left: 10%;
 }
 .O {
    @include letras;
@@ -24,7 +24,6 @@
 }
 .SD {
    @include letras;
-    font-size: 12vh;
     margin-top: -30%;
     margin-left: 26%;
 }

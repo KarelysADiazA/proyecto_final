@@ -1,4 +1,4 @@
-@media screen and (min-width:500px) and (max-width:900px)
+@media screen and (min-width:400px) and (max-width:900px)
 {
     .navegacion {
         video {
@@ -24,6 +24,50 @@
             font-size: 6vh;
             margin-left: 2%;}
     }
+    .cajaDos {
+        margin-top: 1%;
+        font-size: 6vh;
+        padding: 2px;
+        .cajaDosP {
+            font-size: 3vh;
+        }
+    }
+    .tangoimg {
+        width: 50%;
+    }
+    .ladies { 
+      h1 {
+        padding-top:15%;
+    }
+     h2 {
+        font-size: 3vh;
+    }
+     p {
+        font-size: 2vh;
+    }
+}
+    .Staff {
+    font-size: 5.5vh;
+    p {
+        font-size: 2.5vh;
+    }
+}
+    .S {
+        font-size: 7vh;
+    }
+    .H {
+        font-size: 7vh;
+    }
+    .O {
+        font-size: 7vh;
+    }
+    .W{
+        font-size: 7vh;
+    }
+    .SD {
+        font-size: 7vh;
+    }
+
 }
 @media screen and (min-width:901px) and (max-width: 1200px) {
     .navegacion {
